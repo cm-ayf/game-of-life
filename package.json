@@ -1,0 +1,20 @@
+{
+  "name": "game-of-life",
+  "version": "1.0.0",
+  "description": "Conway's Game of Life web app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cm-ayf/game-of-life.git"
+  },
+  "author": "cm-ayf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cm-ayf/game-of-life/issues"
+  },
+  "homepage": "https://github.com/cm-ayf/game-of-life#readme"
+}
