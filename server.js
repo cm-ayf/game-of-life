@@ -7,11 +7,11 @@ app.get("/", (req, res) => {
 });
 
 app.get("/index.css", (req, res) => {
-  res.sendFile(__dirname + "/index.css");
+  res.sendFile(__dirname + "/style.css");
 });
 
 app.get("/index.js", function (req, res) {
-  res.sendFile(__dirname + "/index.js");
+  res.sendFile(__dirname + "/main.js");
 });
 
 app.listen(port, () => console.log(`listening on port ${port}!`));
