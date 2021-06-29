@@ -6,11 +6,11 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
 
-app.get("/index.css", (req, res) => {
+app.get("/style.css", (req, res) => {
   res.sendFile(__dirname + "/style.css");
 });
 
-app.get("/index.js", function (req, res) {
+app.get("/main.js", function (req, res) {
   res.sendFile(__dirname + "/main.js");
 });
 
