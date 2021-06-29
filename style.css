@@ -1,11 +1,14 @@
+html, body, main {
+    height: 100%;
+}
+
 table, td {
     border: 1px solid;
 }
 
 table {
     width: 100%;
-    max-width: 400px;
-    height: 240px;
+    height: 70%;
     margin: 0 auto;
     display: block;
     overflow-x: auto;
