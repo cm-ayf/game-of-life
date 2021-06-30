@@ -24,7 +24,7 @@ td {
     border-left-width: 0;
 }
 .on {
-    background-color: greenyellow;
+    background-color: green;
 }
 
 th:last-child,

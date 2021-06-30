@@ -1,15 +1,15 @@
 const row = 20;
 const col = 10
-let tableJq, tableLt;
+let tableLt;
 document.addEventListener('DOMContentLoaded', () => {
     let tr;
-    tableJq = $('table');
+    const tableJq = $('table');
     tableLt = [];
     for (let i = 0; i < row; i++) {
         tr = $(`<tr></tr>`).appendTo(tableJq);
         tableLt[i] = [];
         for (let j = 0; j < col; j++) {
-            tableLt[i][j] = $(`<td id="${i},${j}"></td>`).appendTo(tr);
+            tableLt[i][j] = $(`<td></td>`).appendTo(tr);
         };
     };
 
